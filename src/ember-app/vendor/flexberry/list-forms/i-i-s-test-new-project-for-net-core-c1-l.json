@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-test-new-project-for-net-core-c1-e",
+  "editForm": "i-i-s-test-new-project-for-net-core-c1-e",
+  "external": false,
+  "caption": "C1",
+  "name": "IISTestNewProjectForNetCoreC1L",
+  "className": "C1L",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test-new-project-for-net-core-c1",
+      "modelProjection": "C1L"
+    }
+  ]
+}

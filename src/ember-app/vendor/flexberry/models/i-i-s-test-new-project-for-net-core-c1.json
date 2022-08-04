@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISTestNewProjectForNetCoreC1",
+  "modelName": "i-i-s-test-new-project-for-net-core-c1",
+  "className": "C1",
+  "nameSpace": "IIS.TestNewProjectForNetCore",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "name",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "C1E",
+      "modelName": "i-i-s-test-new-project-for-net-core-c1",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "C1L",
+      "modelName": "i-i-s-test-new-project-for-net-core-c1",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

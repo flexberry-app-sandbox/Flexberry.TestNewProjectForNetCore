@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "C1",
+  "name": "IISTestNewProjectForNetCoreC1E",
+  "className": "C1E",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test-new-project-for-net-core-c1",
+      "modelProjection": "C1E"
+    }
+  ]
+}

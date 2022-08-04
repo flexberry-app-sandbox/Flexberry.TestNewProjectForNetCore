@@ -1,0 +1,106 @@
+﻿{
+  "name": "IISTestNewProjectForNetCoreC2",
+  "modelName": "i-i-s-test-new-project-for-net-core-c2",
+  "className": "C2",
+  "nameSpace": "IIS.TestNewProjectForNetCore",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "name",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "c1",
+      "relatedTo": "i-i-s-test-new-project-for-net-core-c1",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "C2E",
+      "modelName": "i-i-s-test-new-project-for-net-core-c2",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "name",
+          "lookupValueField": "name",
+          "relationName": "C1",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "Name",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "C1",
+          "name": "c1",
+          "relatedTo": "i-i-s-test-new-project-for-net-core-c1",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "C2L",
+      "modelName": "i-i-s-test-new-project-for-net-core-c2",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "C1",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "Name",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Name",
+          "name": "c1",
+          "relatedTo": "i-i-s-test-new-project-for-net-core-c1",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

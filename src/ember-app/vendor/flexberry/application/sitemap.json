@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "Test new project for net core",
+  "applicationTitle": "Test new project for net core",
+  "items": [
+    {
+      "link": null,
+      "menuName": "test-new-project-for-net-core",
+      "caption": "TestNewProjectForNetCore",
+      "title": "TestNewProjectForNetCore",
+      "children": [
+        {
+          "link": "i-i-s-test-new-project-for-net-core-c1-l",
+          "menuName": null,
+          "caption": "C1",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test-new-project-for-net-core-c2-l",
+          "menuName": null,
+          "caption": "C2",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

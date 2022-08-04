@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "C1",
+      "projection": "C1L",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "C2",
+  "name": "IISTestNewProjectForNetCoreC2E",
+  "className": "C2E",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test-new-project-for-net-core-c2",
+      "modelProjection": "C2E"
+    }
+  ]
+}
